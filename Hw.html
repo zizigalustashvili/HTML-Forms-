@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაცია</title>
+</head>
+<body>
+    <h2>რეგისტრაციის ფორმა</h2>
+    <form action="#" method="POST">
+        <label for="firstname">სახელი:</label>
+        <input type="text" id="firstname" name="'firstname" required><br><br>
+
+        <label for="lastname">გვარი:</label>
+        <input type="text" name="lastname" id="lastname" required><br><br>
+
+        <label for="email">ელ ფოსტა:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm_password">დაადასტურე პაროლი:</label>
+        <input type="password" id="confirm_password" name="confirm_password"><br><br>
+
+        <label for="age">ასაკი:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label>სქესი:</label><br>
+
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">მამრობითი</label><br>
+
+        <input type="radio" id="female" name="gender" values="female" required>
+        <label for="female">მდედრობითი</label><br>
+
+        <input type="radio" name="gender" id="other" value="other" required>
+        <label for="other">სხვა</label><br><br>
+
+        <label>ინტერესები:</label><br>
+
+        <input type="checkbox" id="tech" name="interests" value="technology" required>
+        <label for="tech">ტექნოლოგია</label><br>
+
+        <input type="checkbox" id="sport" name="interests" value="sport">
+        <label for="sport">სპორტი</label><br>
+        
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">მუსიკა</label><br>
+
+        <input type="checkbox" id="scifi" name="interests" value="scifi">
+        <label for="scifi">სამეცნიერო ფანტასტიკა</label><br><br>
+
+        <label for="country">ქვეყანა:</label>
+        <select name="country" id="country" required>
+            <option value="any country">აირჩიე ქვეყანა</option>
+            <option value="georgia">საქართველო</option>
+            <option value="usa">აშშ</option>
+            <option value="germany">გერმანია</option>
+            <option value="france">საფრანგეთი</option>
+        </select><br><br>
+
+        <label for="additional_info">დამატებითი ინფორმაცია:</label><br><br>
+        <textarea name="additional_info" id="additional_info" row="4" cols="40"></textarea><br><br>
+
+        <button type="submit">რეგისტრაცია</button>
+
+
+    </form>
+
+</body>
+</html>
